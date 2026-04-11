@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — AllHands</title>
+  <meta name="description" content="AllHands Privacy Policy — how we collect, use, and protect your personal data.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-inner">
+
+      <a href="index.html" class="nav-brand" aria-label="AllHands home">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect width="28" height="28" rx="8" fill="currentColor" opacity="0.15"/>
+          <path d="M8 20V11l4 3 2-6 2 6 4-3v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </svg>
+        AllHands
+      </a>
+
+      <nav class="nav-links" role="navigation" aria-label="Main navigation">
+        <a href="index.html"    class="nav-link">Home</a>
+        <a href="privacy.html" class="nav-link active">Privacy Policy</a>
+      </nav>
+
+      <button class="nav-hamburger" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-mobile">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <nav class="nav-mobile" id="nav-mobile" role="navigation" aria-label="Mobile navigation">
+      <a href="index.html"    class="nav-link">Home</a>
+      <a href="privacy.html" class="nav-link active">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== Page Hero ===== -->
+    <div class="page-hero">
+      <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Effective date: <time datetime="2026-04-11">April 11, 2026</time></p>
+      </div>
+    </div>
+
+    <!-- ===== Policy Content ===== -->
+    <div class="prose-container">
+
+      <h2>1. Introduction</h2>
+      <p>AllHands ("we", "us", "our") is a service booking marketplace that connects clients with skilled local service providers. This Privacy Policy explains what personal data we collect, why we collect it, how we use it, and how we protect it.</p>
+      <p>By using the AllHands application you agree to the practices described in this policy.</p>
+
+      <h2>2. Data We Collect</h2>
+      <p>We collect the following categories of personal data:</p>
+      <ul>
+        <li><strong>Identity data:</strong> First name, last name, date of birth.</li>
+        <li><strong>Contact data:</strong> Email address, mobile phone number (with country extension).</li>
+        <li><strong>Profile media:</strong> Profile picture, stored securely on our cloud servers.</li>
+        <li><strong>Location data:</strong> Service address and coordinates (provided by service providers when listing a service), and approximate client location used for search queries.</li>
+        <li><strong>Payment data:</strong> Credit card details are tokenised by our payment processor and are <strong>never</strong> stored on AllHands servers. We store only: card brand, last 4 digits, expiry month/year, and payment processor-assigned identifiers.</li>
+        <li><strong>Authentication data:</strong> Securely hashed passwords (plaintext passwords are never stored or transmitted) and session token metadata.</li>
+        <li><strong>Device and usage data:</strong> Device type, operating system version, and request timestamps, collected via server access logs.</li>
+      </ul>
+
+      <h2>3. How We Use Your Data</h2>
+      <p>We use the data we collect for the following purposes:</p>
+      <ul>
+        <li><strong>Service matching:</strong> Location and service category data is used to surface relevant services in search results.</li>
+        <li><strong>Booking management:</strong> Name and contact details support the booking lifecycle — creation, confirmation, and cancellation.</li>
+        <li><strong>Identity verification:</strong> A 6-digit verification code is sent to your email address during account registration. Codes expire after 15 minutes.</li>
+        <li><strong>Payment processing:</strong> Payment processor identifiers are used to initiate and record charges.</li>
+        <li><strong>Account security:</strong> Hashed passwords and short-lived session tokens are used to authenticate and authorise access to your account.</li>
+        <li><strong>Audit logging:</strong> All payment operations are logged for integrity and dispute resolution purposes.</li>
+      </ul>
+
+      <h2>4. Data Storage and Retention</h2>
+      <p>All personal data is stored on secure cloud infrastructure.</p>
+      <ul>
+        <li>Email verification codes expire and are invalidated after <strong>15 minutes</strong>.</li>
+        <li>User account data and booking records are retained while your account is active.</li>
+        <li>Payment audit logs are retained for financial integrity purposes.</li>
+        <li>You may request deletion of your account and all associated personal data at any time (see <em>Your Rights</em> below).</li>
+      </ul>
+
+      <h2>5. Security Measures</h2>
+      <p>We have implemented the following technical measures to protect your data:</p>
+      <ul>
+        <li>All data is transmitted exclusively over <strong>HTTPS</strong>.</li>
+        <li>Passwords are hashed using industry-standard algorithms — plaintext passwords are never stored on our systems.</li>
+        <li>Session tokens are cryptographically signed and expire after <strong>60 minutes</strong>, limiting the impact of token compromise.</li>
+        <li>All card processing is handled by our payment processor under PCI DSS compliance. AllHands never receives or stores raw card numbers.</li>
+        <li>Profile pictures are stored in private cloud storage and accessed only via time-limited secure URLs.</li>
+        <li>Service roles enforce least-privilege access between all internal components.</li>
+        <li>Application secrets (signing keys, API credentials) are stored in a secure vault and are never hardcoded.</li>
+      </ul>
+
+      <h2>6. Third-Party Services</h2>
+      <p>AllHands uses the following third-party services to operate the platform:</p>
+      <ul>
+        <li><strong>Cloud infrastructure provider:</strong> Compute, storage, and email delivery services used to run the platform.</li>
+        <li><strong>Payment processor:</strong> Payment processing and card vaulting under PCI DSS Level 1 compliance.</li>
+      </ul>
+      <p>We do <strong>not</strong> sell, rent, or share your personal data with advertisers, data brokers, or any other third parties beyond those listed above.</p>
+
+      <h2>7. Your Rights</h2>
+      <p>You have the following rights with respect to your personal data:</p>
+      <ul>
+        <li><strong>Access:</strong> Request a copy of the personal data we hold about you.</li>
+        <li><strong>Correction:</strong> Request correction of inaccurate or incomplete data.</li>
+        <li><strong>Deletion:</strong> Request deletion of your account and all associated personal data.</li>
+        <li><strong>Portability:</strong> Request your data in a machine-readable format where technically feasible.</li>
+      </ul>
+      <p>To exercise any of these rights, please contact us via the method described in the <em>Contact</em> section below.</p>
+
+      <h2>8. Children's Privacy</h2>
+      <p>AllHands is not intended for use by individuals under the age of 18. We do not knowingly collect personal data from minors. If you believe a minor has created an account, please contact us and we will promptly delete the account and associated data.</p>
+
+      <h2>9. Changes to This Policy</h2>
+      <p>We may update this Privacy Policy from time to time to reflect changes in our practices or applicable law. The effective date shown at the top of this page will be updated accordingly. Continued use of the AllHands application after any changes constitutes your acceptance of the updated policy.</p>
+      <p>For significant changes, we will endeavour to notify users via the application or email.</p>
+
+      <h2>10. Contact</h2>
+      <p>For privacy-related enquiries, requests, or to exercise your data rights, please reach out to us via the contact details provided within the application.</p>
+
+    </div>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-brand" aria-label="AllHands home">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+              <rect width="28" height="28" rx="8" fill="currentColor" opacity="0.15"/>
+              <path d="M8 20V11l4 3 2-6 2 6 4-3v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </svg>
+            AllHands
+          </a>
+          <p>Local services, simplified. A dual-sided marketplace for booking and managing services.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sections</h4>
+          <ul>
+            <li><a href="index.html#introduction">Introduction</a></li>
+            <li><a href="index.html#mission">Mission</a></li>
+            <li><a href="index.html#scope">Features</a></li>
+            <li><a href="index.html#how-it-works">How It Works</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 AllHands</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
