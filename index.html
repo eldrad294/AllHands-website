@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/images/allhands-favicon.png" type="image/png">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -20,10 +21,7 @@
     <div class="container nav-inner">
 
       <a href="index.html" class="nav-brand" aria-label="AllHands home">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-          <rect width="28" height="28" rx="8" fill="currentColor" opacity="0.15"/>
-          <path d="M8 20V11l4 3 2-6 2 6 4-3v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-        </svg>
+        <img src="assets/images/allhands-logomark-v9.png" width="28" height="28" alt="" aria-hidden="true" class="nav-logo-img">
         AllHands
       </a>
 
@@ -50,11 +48,16 @@
     <!-- ===== Hero ===== -->
     <section id="hero">
       <div class="container hero-content">
-        <span class="hero-tagline">Service Booking Marketplace</span>
-        <h1 class="hero-title">Connect. Book.<br>Get It Done.</h1>
-        <p class="hero-subtitle">AllHands is a dual-sided marketplace connecting clients with skilled local service providers — all through a seamless, mobile-first platform.</p>
-        <div class="hero-actions">
-          <a href="#" class="btn btn-filled">Download App</a>
+        <div class="hero-text">
+          <span class="hero-tagline">Service Booking Marketplace</span>
+          <h1 class="hero-title">Connect. Book.<br>Get It Done.</h1>
+          <p class="hero-subtitle">AllHands is a dual-sided marketplace connecting clients with skilled local service providers — all through a seamless, mobile-first platform.</p>
+          <div class="hero-actions">
+            <a href="https://play.google.com/apps/internaltest/4701679932402860049" class="btn btn-filled" target="_blank" rel="noopener">Download Alpha Build</a>
+          </div>
+        </div>
+        <div class="hero-illustration-wrap">
+          <img src="assets/images/allhands-hero-illustration-v9.png" alt="Service providers illustration" class="hero-illustration">
         </div>
       </div>
     </section>
@@ -229,6 +232,30 @@
     </section>
 
 
+    <!-- ===== App Preview ===== -->
+    <section id="app-preview" class="section-pad">
+      <div class="container">
+        <img src="assets/images/allhands-onboarding-panels.png"
+             alt="AllHands app onboarding: Connect, Book, and Get It Done screens"
+             class="app-preview-img fade-in">
+      </div>
+    </section>
+
+    <!-- ===== Download CTA ===== -->
+    <section id="download-cta" class="section-pad">
+      <div class="container">
+        <div class="cta-banner-wrap fade-in">
+          <img src="assets/images/allhands-cta-banner-v9.png"
+               alt="Ready to Get Things Done? Connect. Book. Get It Done."
+               class="cta-banner-img">
+          <a href="https://play.google.com/apps/internaltest/4701679932402860049"
+             class="btn btn-filled cta-banner-btn" target="_blank" rel="noopener">
+            Download Alpha Build
+          </a>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- ===== Footer ===== -->
@@ -237,10 +264,7 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <a href="index.html" class="nav-brand" aria-label="AllHands home">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
-              <rect width="28" height="28" rx="8" fill="currentColor" opacity="0.15"/>
-              <path d="M8 20V11l4 3 2-6 2 6 4-3v9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-            </svg>
+            <img src="assets/images/allhands-logomark-v9.png" width="28" height="28" alt="" aria-hidden="true" class="nav-logo-img">
             AllHands
           </a>
           <p>Local services, simplified. A dual-sided marketplace for booking and managing services.</p>
