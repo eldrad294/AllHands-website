@@ -362,7 +362,26 @@ section[id] { scroll-margin-top: var(--nav-height); }
   pointer-events: none;
 }
 
-.hero-content { position: relative; z-index: 1; }
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  gap: var(--space-10);
+}
+
+.hero-text { flex: 1 1 0; text-align: left; }
+
+.hero-illustration-wrap {
+  flex: 0 0 auto;
+  width: clamp(280px, 40%, 520px);
+}
+
+.hero-illustration {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 .hero-tagline {
   display: inline-block;
@@ -775,4 +794,61 @@ section[id] { scroll-margin-top: var(--nav-height); }
   .scope-grid      { grid-template-columns: 1fr; }
   .intro-icon-grid { grid-template-columns: 1fr; }
   .tech-grid       { grid-template-columns: 1fr; }
+}
+
+/* =========================================================
+   Nav logo image
+   ========================================================= */
+.nav-logo-img {
+  object-fit: contain;
+  display: block;
+}
+
+/* =========================================================
+   App Preview section
+   ========================================================= */
+.app-preview-img {
+  max-width: 720px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  border-radius: var(--radius-lg);
+}
+
+/* =========================================================
+   Download CTA banner
+   ========================================================= */
+.cta-banner-wrap {
+  text-align: center;
+}
+
+.cta-banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-lg);
+}
+
+.cta-banner-btn {
+  margin-top: var(--space-6);
+}
+
+/* =========================================================
+   Hero responsive — stack on tablet / mobile
+   ========================================================= */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-illustration-wrap {
+    width: 100%;
+    max-width: 400px;
+    order: -1;
+  }
+
+  .hero-text .hero-actions {
+    justify-content: center;
+  }
 }
